@@ -1,0 +1,57 @@
+<meta charset="utf-8" />
+<div class="question1"style="background-color: #b2d0ed; height: 700px; width: 800px; margin-left: 500px">
+    <img src="lol.png"style="width: 800px"/>
+    <h1>Лучшая игра 2019 г.</h1>
+    <div class="variant1"style="width: 800px; height: 100px; background-color: #8356b8; font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/IrqC4NkTFKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="variant2"style="width: 800px; height: 100px; background-color: #78f0a4;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/9aUESdHCOIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
+    </div>
+    <div class="variant3"style="width: 800px; height: 100px; background-color: #66b0b3;font-size: 40px">
+        <iframe width="560" height="100" src="https://www.youtube.com/embed/H77Zfzy4LWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="question2"style="display:none;background-color: #737887; height: 800px; width: 800px; margin-left: 500px">
+    <img src="LW.jpg" style="width: 800px; height: 200px"/>
+    <h1>Самая популярная песня AJR</h1>
+    <div class="variant1"style="width: 800px; height: 150px; background-color: #8356b8; font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/52028400/7298886">Слушайте <a href='https://music.yandex.ru/album/7298886/track/52028400'>Karma</a> — <a href='https://music.yandex.ru/artist/2828673'>AJR</a> на Яндекс.Музыке</iframe>
+    </div>
+    <div class="variant2"style="width: 800px; height: 150px; background-color: red;font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/39815720/5717735">Слушайте <a href='https://music.yandex.ru/album/5717735/track/39815720'>Burn the House Down</a> — <a href='https://music.yandex.ru/artist/2828673'>AJR</a> на Яндекс.Музыке</iframe>
+    </div>
+    <div class="variant3"style="width: 800px; height: 150px; background-color: green;font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/30977038/5717735">Слушайте <a href='https://music.yandex.ru/album/5717735/track/30977038'>Weak</a> — <a href='https://music.yandex.ru/artist/2828673'>AJR</a> на Яндекс.Музыке</iframe>
+    </div>
+</div>
+
+<div class="question3"style="display:none;background-color: #8a2025; height: 900px; width: 800px; margin-left: 500px">
+    <img src="https://k3y.ru/wp-content/uploads/2019/07/EGS.jpg" style="width: 800px; height: 300px"/>
+    <h1>Какой из экранизации работ СтивенаКинга получил 7.3?</h1>
+    <div class="variant1"style="width: 800px; height: 200px; background-color: #8356b8; font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/bkhjbv9UbPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="variant2"style="width: 800px; height: 200px; background-color: red;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/NMSUEhDWXH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="variant3"style="width: 800px; height: 200px; background-color: green;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/hAUTdjf9rko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+
+<script type="text/javascript">
+    find("question1 variant3").click("alert","wrong")
+    find("question1 variant1").click("alert","wrong")
+    find("question1 variant2").click("show","question2","nice")
+
+    find("question2 variant1").click("alert","wrong")
+    find("question2 variant2").click("alert","wrong")
+    find("question2 variant3").click("show","question3","nice")
+
+    find("question3 variant2").click("alert","wrong")
+    find("question3 variant1").click("alert","wrong")
+    find("question3 variant3").click("alert","nice")
+</script>
